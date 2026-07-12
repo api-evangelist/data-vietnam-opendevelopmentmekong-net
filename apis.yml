@@ -40,6 +40,8 @@ apis:
       - type: x-api-endpoint
         url: https://data.vietnam.opendevelopmentmekong.net/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/data-vietnam-opendevelopmentmekong-net-domain-security.yml
   - type: Website
     url: https://data.vietnam.opendevelopmentmekong.net
   - type: Documentation
@@ -52,6 +54,8 @@ common:
     url: finops/data-vietnam-opendevelopmentmekong-net-finops.yml
   - type: Review
     url: review.yml
+  - url: https://vietnam.opendevelopmentmekong.net/news/?feed=rss
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
